@@ -1,0 +1,17 @@
+.navbar {
+    background-color: var(--color-black);
+    height: 80px;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px;
+}
+
+.middleNav {
+    color: var(--color-white);
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 30px;
+}

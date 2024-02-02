@@ -1,0 +1,11 @@
+.button {
+    color: var(--color-white);
+    background-color: var(--color-black);
+    width: 172px;
+    height: 47px;
+    border: 2px solid var(--color-white);
+    border-radius: 0px;
+    font-family: "Poppins",sans-serif;
+    cursor: pointer;
+    padding: 14px 35px;
+}

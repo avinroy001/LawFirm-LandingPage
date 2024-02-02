@@ -1,0 +1,17 @@
+.hero {
+    background-color: var(--color-black);
+    height: 550px;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px;
+}
+
+.left {
+
+}
+
+.wrapper {
+    
+}
