@@ -1,0 +1,6 @@
+.mailbox {
+    width: 440px;
+    height: 80px;
+    background-color: var(--color-box);
+    border-radius: 43px;
+}

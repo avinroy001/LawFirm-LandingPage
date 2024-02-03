@@ -1,15 +1,18 @@
 
 
-// import './App.css'
+import './App.css'
 import Header from './components/Header/Header';
-import Hero from './components/Hero/Hero';
+import Block1 from './components/MidBlock/Block1';
+
 
 function App() {
 
   return (
     <>
       <Header/>
-      <Hero/>
+      <div className="middlePortion">
+          <Block1/>
+      </div>
     </>
   )
 }
