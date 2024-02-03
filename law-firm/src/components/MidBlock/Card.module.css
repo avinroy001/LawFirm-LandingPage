@@ -1,0 +1,32 @@
+.cardBody {
+    width: 360px;
+    height: 380px;
+    background-color: var(--color-secondary);
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 10px;
+    border: 1.5px solid var(--color-white);
+    border-radius: 14px;
+    padding: 30px;
+}
+
+.cardButton {
+    width: 121px;
+    height: 43px;
+    border-radius: 24px;
+    background-color: var(--color-primary);
+    text-align: center;
+    color: var(--color-black);
+}
+
+.cardTitle {
+    font-weight: lighter;
+}
+
+.cardContent {
+    /* font-size-adjust: 0.75; */
+    font-weight: lighter;
+    
+}

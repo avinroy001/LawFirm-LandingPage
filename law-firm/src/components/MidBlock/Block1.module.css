@@ -1,4 +1,20 @@
 .block1 {
     display: flex;
     align-items: center;
+    width: 1132px;
+    height: 175px;
+    margin-top: 50px;
+}
+
+.left {
+    width: 50%;
+    padding-left: 70px;
+    font-weight: lighter;
+}
+
+.right {
+    width: 50%;
+    border-left: 2px solid white;
+    padding-left: 70px;
+    font-weight: lighter;
 }
