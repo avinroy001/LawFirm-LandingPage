@@ -19,6 +19,7 @@
     background-color: var(--color-primary);
     text-align: center;
     color: var(--color-black);
+    padding-top: 11px;
 }
 
 .cardTitle {
@@ -28,5 +29,8 @@
 .cardContent {
     /* font-size-adjust: 0.75; */
     font-weight: lighter;
+    p{
+        font-weight: 100;
+    }
     
 }

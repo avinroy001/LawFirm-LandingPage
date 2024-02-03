@@ -1,9 +1,12 @@
 import styles from './Card.module.css';
 import CardImg from '../../assets/Group 19.png';
-
+import { CardActionArea } from '@mui/material';
 export const Card = () => {
   return (
+    <div >
+        <CardActionArea>
     <div className={styles.cardBody}>
+        
         <div className={styles.cardImg}>
             <img src={CardImg} alt='card image' width={101} height={101}/>
         </div>
@@ -20,6 +23,8 @@ export const Card = () => {
         <div className={styles.cardButton}>
             Read More
         </div>
+    </div>
+    </CardActionArea>
     </div>
   )
 }

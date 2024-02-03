@@ -18,7 +18,7 @@ const Hero = () => {
                 </h1>
                 </div>
                 <div>
-                <p>Lorem ipsum dolor sit amet consectetur adipiscing elit blandit,
+                <p className={styles.content}>Lorem ipsum dolor sit amet consectetur adipiscing elit blandit,
                    curabitur sodales conubia ut inceptos faucibus himenaeos tortor eget, hac massa gravida arcu interdum proin curae.</p>
                 </div>
                 <div>

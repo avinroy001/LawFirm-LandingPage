@@ -17,6 +17,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
+    gap: 30px;
 }
 
 .right {
@@ -35,7 +36,7 @@
     font-size: 3.3rem;
     font-weight: lighter;
 }
-p {
+.content {
     font-size: 1.4rem;
     margin-bottom: 12px;
     color:var(--color-white);

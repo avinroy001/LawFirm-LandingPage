@@ -1,10 +1,15 @@
 .cardLoop {
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-around;
+    padding-inline: 70px;
 }
 
 .heading {
     text-align: center;
     padding: 100px 50px;
+}
+
+.block2 {
+    margin-bottom: 100px;
 }
