@@ -1,9 +1,11 @@
 import styles  from './ClientCard.module.css';
 import PropTypes from 'prop-types';
-
+import { CardActionArea } from '@mui/material';
 
 const ClientCard = ({pic,name1}) => {
   return (
+    <div>
+         <CardActionArea>
     <div className={styles.wrapper}>
         <div className={styles.image}>
             <img src={pic} alt='client image' height={102} width={105}/>
@@ -27,6 +29,8 @@ const ClientCard = ({pic,name1}) => {
             </p>
         </div>
     </div>
+    </CardActionArea>
+  </div>  
   )
 }
 ClientCard.propTypes = {

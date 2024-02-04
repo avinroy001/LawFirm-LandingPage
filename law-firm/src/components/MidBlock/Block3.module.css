@@ -28,3 +28,38 @@
     font-weight: 600;
     font-size: 24px;
 }
+.partenership {
+    position: absolute;
+    left: 70px;
+    bottom: 20px;
+    font-weight: 600;
+    font-size: 24px;
+}
+.realestate {
+    position: absolute;
+    left: 70px;
+    bottom: 20px;
+    font-weight: 600;
+    font-size: 24px;
+}
+.business2 {
+    position: absolute;
+    left: 300px;
+    bottom: 20px;
+    font-weight: 600;
+    font-size: 24px;
+}
+.landlord {
+    position: absolute;
+    left: 300px;
+    bottom: 20px;
+    font-weight: 600;
+    font-size: 24px;
+}
+.elder {
+    position: absolute;
+    left: 90px;
+    bottom: 20px;
+    font-weight: 600;
+    font-size: 24px;
+}
