@@ -1,0 +1,52 @@
+.text {
+    font-size: 54px;
+    font-weight: 600;
+}
+
+.block4 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0% 50px;
+    margin: 50px;
+}
+
+.arrow {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.arrBlock {
+    width: 90.61px;
+    height: 90.61px;
+    background-color: var(--color-white);
+    border-radius: 50px;
+    position: relative;
+}
+
+.arrowsignL {
+    color: var(--color-black);
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
+
+.arrowsignR {
+    color:  var(--color-black);
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
+
+.arrBlock:hover {
+background-color: var(--color-primary);
+}
+
+.clientcard {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}

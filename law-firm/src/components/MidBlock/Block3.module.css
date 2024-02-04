@@ -10,5 +10,21 @@
     width: auto;
     flex-wrap: wrap;
     gap: 20px;
+    div {
+        position: relative;
+    }
+    
+}
 
+/* .img {
+    position: relative;
+} */
+
+
+.business {
+    position: absolute;
+    left: 300px;
+    bottom: 20px;
+    font-weight: 600;
+    font-size: 24px;
 }

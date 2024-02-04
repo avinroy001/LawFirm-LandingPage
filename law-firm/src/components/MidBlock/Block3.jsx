@@ -10,8 +10,13 @@ const Block3 = () => {
     <div>
         <p className={styles.header}>Area of Practices</p>
         <div className={styles.wrapper}>
+            <div className={styles.img1}>
             <img src={Pic1} alt='pic1'/>
+            <p className={styles.business}>BUSINESS LAW</p>
+            </div>
             <img src={Pic2} alt='pic2'/>
+            <p className={styles.partenership}>
+            </p>
             <img src={Pic3} alt='pic3'/>
             <img src={Pic4} alt='pic4'/>
             <img src={Pic5} alt='pic5'/>

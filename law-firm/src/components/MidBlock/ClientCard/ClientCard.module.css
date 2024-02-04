@@ -1,0 +1,30 @@
+.wrapper {
+    width: 359px;
+    height: 368px;
+    border: 1.5px solid var(--color-lightGrey);
+    border-radius: 14px;
+    background-color: var(--color-secondary);
+    padding: 10px;
+}
+
+.title {
+    font-weight: 600;
+    font-size: 24px;
+    margin: 10px;
+}
+.image {
+    margin: 20px;
+}
+.info {
+    font-weight: 400;
+    font-size: 14px;
+    margin: 10px;
+}
+.content {
+    width: 293px;
+    height: 92px;
+    font-weight: 500;
+    font-size: 14px;
+    opacity: 30%;
+    margin: 10px;
+}

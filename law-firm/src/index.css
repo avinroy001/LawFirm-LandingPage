@@ -4,6 +4,7 @@
   --color-white:#ffffff;
   --color-secondary:#1D1D1D;
   --color-box:#474747;
+  --color-lightGrey: #474747;
 }
 body{
   background-color: var(--color-black);
