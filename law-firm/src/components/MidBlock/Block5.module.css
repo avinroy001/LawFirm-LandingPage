@@ -6,12 +6,12 @@
 }
 .cardflex {
     display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
+    flex-wrap:wrap;
+    justify-content:space-between;
 }
 .block5 {
     width: 1156px;
     height: 425px;
     background-color: var(--color-secondary);
-    margin-left: 150px;
+    margin-left: 100px;
 }

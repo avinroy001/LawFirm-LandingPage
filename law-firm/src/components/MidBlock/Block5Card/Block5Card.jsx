@@ -13,7 +13,7 @@ const Block5Card = ({pic,name,num_case}) => {
             {name}
             </p>
                 
-            <div>{num_case}<span>Cases</span></div>
+            <div className={styles.caseno}>{num_case}<span>Cases</span></div>
         </div>
     </div>
     </div>

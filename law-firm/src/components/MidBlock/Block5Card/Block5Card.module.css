@@ -1,6 +1,7 @@
 .carddiv {
     width: 344px;
     height: 109px;
+    border-radius: 14px;
     background-color: var(--color-secondary);
 }
 .carddiv:hover {
@@ -10,8 +11,8 @@
     }
 }
 .card {
-    width: 178px;
-    height: 68px;
+    /* width: 178px; */
+    /* height: 68px; */
     display: flex;
     justify-content: space-around;
     padding: 20px;
@@ -22,8 +23,8 @@
     border: 50%;
 }
 .teaminfo {
-    width: 88px;
-    height: 54px;
+    /* width: 88px;
+    height: 54px; */
     p{
         font-weight: 600;
         font-size: 24px;
@@ -34,4 +35,7 @@
         font-weight: 400;
         font-size: 14px;
     }
+}
+.caseno {
+    color: var(--color-box);
 }
