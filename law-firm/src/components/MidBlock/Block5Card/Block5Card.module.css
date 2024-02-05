@@ -3,12 +3,14 @@
     height: 109px;
     border-radius: 14px;
     background-color: var(--color-secondary);
+    
 }
 .carddiv:hover {
     background-color: var(--color-primary);
     p{
         color: var(--color-black);
     }
+    
 }
 .card {
     /* width: 178px; */
@@ -21,7 +23,9 @@
     width: 68px;
     height: 68px;
     border: 50%;
+   
 }
+
 .teaminfo {
     /* width: 88px;
     height: 54px; */
