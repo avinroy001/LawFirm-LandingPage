@@ -6,11 +6,28 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 15px;
+    padding: 10px;
 }
 .button {
     width: 137px;
     height: 62px;
     background-color: var(--color-primary);
     border-radius: 43px;
+    position: relative;
+    button {
+        position: absolute;
+        top: 22px;
+    }
+}
+.inputblock {
+    position: relative;
+    /* display:flex; */
+    /* align-items: center; */
+    /* justify-content: center; */
+    input {
+        position: absolute;
+        top: 6px;
+        background-color: var(--color-box);
+        width: 200px;
+    }
 }
