@@ -1,0 +1,29 @@
+.block6 {
+    
+    display: flex;
+    justify-content:space-between;
+    /* gap: 250px; */
+    margin-top: 20px;
+    p {
+        font-size: 18px;
+        font-weight: 500;
+    }
+    
+}
+.block6header {
+    height: 629px;
+    width: 1140px;
+    margin: 150px;
+    .h {
+        font-weight: 600;
+        font-size: 54px;
+    }
+}
+.left {
+    width: 500px;
+    height: 58px;
+}
+.right {
+    width: 500px;
+    height: 540px;
+}
